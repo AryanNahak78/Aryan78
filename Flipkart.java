@@ -23,7 +23,7 @@ public class Flipkart {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='samsung s24 ultra']")));
 		driver.findElement(By.xpath("//*[text()='samsung s24 ultra']")).click();
 	
-		
+// hello		
 		
 		//select product
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//*[text()='Samsung Galaxy S24 Ultra 5G (Titanium Black, 256 GB)'])[1]")));
