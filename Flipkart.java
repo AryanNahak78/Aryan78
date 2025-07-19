@@ -1,4 +1,4 @@
-package Selenium;
+package aa.Aryan78;
 
 import java.time.Duration;
 import java.util.Set;
@@ -23,7 +23,6 @@ public class Flipkart {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='samsung s24 ultra']")));
 		driver.findElement(By.xpath("//*[text()='samsung s24 ultra']")).click();
 	
-		//login here can be done manually because it will be asking for OTP which we can't automate
 		
 		
 		//select product
